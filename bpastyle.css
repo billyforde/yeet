@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+header, footer, section, nav, article {
+	display: block;
+}
+.backgroundimage {
+	background: url("images/banner2.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+.backgroundimage1 {
+	background: url("images/parks-2090658_1920.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+.backgroundimage2 {
+	background: url("images/orlando-981748_1920.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+.backgroundimage3 {
+	background: url("images/epcot-828867_1920.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+.backgroundimage4 {
+	background: url("images/beach-18186.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+.backgroundimage5 {
+	background: url("images/florida-4923565_1920.jpg");
+	background-attachment: fixed;
+	background-position: no-repeat;
+	background-size: cover;
+}
+
+.background {
+	background: rgba(33, 101, 144, 0.8);
+}
+#banner {
+	font-family: Verdana;
+	text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	color: gold;
+	margin: auto;
+	line-height: 1000%;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+body, h1, h2, h3, p, ul, li {
+	border: 0;
+	margin: auto;
+	padding: 0;
+}
+body {
+	color: white;
+	font-size: 150%;
+	font-family: Arial;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 10px;
+}
+#wrapper {
+	text-align: center;
+}
+#navbar {
+	text-align: center;
+	background-color: rgba(6, 76, 134, 0.95);
+	padding: 5px;
+	box-shadow: 0px 2px rgba(0, 0, 0, 0.3); 
+	font-size: 105%;
+}
+footer {
+	text-align: center;
+	padding: 5%;
+}
+a {
+	text-decoration: none;
+	color: gold;
+	
+}
+nav a:hover {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+#active {
+	color: white;
+}
+#reviews {
+	border: solid #FFFFFF thin;
+	background-color: #064C86;
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	font-size: 16pt;
+}
+img {
+	width: 50%;
+	border-radius: 10px;
+	border: thin solid white;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#articlesection1 {
+	text-align: left;
+}
+ul {
+	text-align: center;
+	margin-bottom: 10px;
+}
+h2 {
+	text-align: center;
+	padding-top: 20px;
+	color: #FFC95C;
+}
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 5px;
+}
