@@ -41,7 +41,7 @@ header, footer, section, nav, article {
 }
 
 .background {
-	background: rgba(33, 101, 144, 0.9);
+	background: rgba(33, 101, 144, 0.85);
 }
 #banner {
 	font-family: Verdana;
